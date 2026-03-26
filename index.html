@@ -1,54 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Ark Shop Discord Server</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ClubArk trading hub for ARK resources, quick transfers, and Discord-based delivery." />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>ClubArk Market | ARK Trading & Delivery</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Ark Shop Discord Server</h1>
-        <nav>
-            <ul>
-                <li><a href="#products">Our Products</a></li>
-                <li><a href="#monitor">Server Monitor</a></li>
-                <li><a href="#join-us">Join Us</a></li>
-            </ul>
-        </nav>
+    <header class="hero">
+        <div class="container">
+            <nav class="top-nav" aria-label="Main navigation">
+                <a class="brand" href="#top">ClubArk Market</a>
+                <ul>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#delivery">Delivery</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#join">Discord</a></li>
+                </ul>
+            </nav>
+
+            <div class="hero-content" id="top">
+                <p class="badge">ARK Trading Community</p>
+                <h1>Fast, trusted ARK resources from ClubArk</h1>
+                <p class="hero-copy">
+                    Buy materials, points, and server transfers through our Discord shop. Clear pricing,
+                    quick responses, and easy order handling in one place.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="https://discord.gg/6BtZxsCJdY" target="_blank" rel="noopener noreferrer">Join Discord</a>
+                    <a class="btn btn-secondary" href="#shop">View Items</a>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section id="products">
-        <h2>Our Products</h2>
-        <div>
-            <h3>Medical Brews</h3>
-            <p>Description of the medical brews, benefits, and price.</p>
-        </div>
-        <div>
-            <h3>Cementing Paste</h3>
-            <p>Description of the cementing paste, uses, and price.</p>
-        </div>
-    </section>
+    <main>
+        <section id="shop" class="container section">
+            <div class="section-title-wrap">
+                <p class="eyebrow">Live Shop Listings</p>
+                <h2>What is currently for sale</h2>
+                <p>All listings below are available through our Discord store system.</p>
+            </div>
 
-    <section id="monitor">
-        <h2>Server Player Count Monitor</h2>
-        <p>Current player count: <span id="player-count">Loading...</span></p>
-        <!-- JavaScript will update the #player-count span with real-time data -->
-    </section>
+            <div class="product-grid">
+                <article class="card">
+                    <h3>ClubArk Points</h3>
+                    <p class="detail">90k ClubArk Points</p>
+                    <p class="price">£10</p>
+                </article>
 
-    <section id="join-us">
-        <h2>Join Our Discord Server</h2>
-        <p>Instructions on how to join the Discord server.</p>
-    </section>
+                <article class="card">
+                    <h3>Element Dust</h3>
+                    <p class="detail">1800k Element Dust (Full dedi)</p>
+                    <p class="price">£2.50</p>
+                </article>
+
+                <article class="card">
+                    <h3>Delivery Driver Service</h3>
+                    <p class="detail">Item transfer from one server to another. Price is per dedi transferred.</p>
+                    <p class="price">£1</p>
+                </article>
+
+                <article class="card">
+                    <h3>Paste</h3>
+                    <p class="detail">Dedi of Paste</p>
+                    <p class="price">£2.50</p>
+                </article>
+
+                <article class="card">
+                    <h3>Metal</h3>
+                    <p class="detail">Dedicated storage box full metal</p>
+                    <p class="price">£5</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="delivery" class="section section-alt">
+            <div class="container split-layout">
+                <div>
+                    <p class="eyebrow">How It Works</p>
+                    <h2>Simple Discord-based ordering</h2>
+                    <ol class="steps">
+                        <li>Join our Discord server and open the shop channel.</li>
+                        <li>Pick your item and message staff with your order details.</li>
+                        <li>We confirm and deliver quickly to your selected server.</li>
+                    </ol>
+                </div>
+                <aside class="info-box">
+                    <h3>Need cross-server item movement?</h3>
+                    <p>Use our Delivery Driver service to move resources cleanly between servers.</p>
+                    <a class="btn btn-primary" href="https://discord.gg/6BtZxsCJdY" target="_blank" rel="noopener noreferrer">Order in Discord</a>
+                </aside>
+            </div>
+        </section>
+
+        <section id="why-us" class="container section">
+            <p class="eyebrow">ClubArk Advantage</p>
+            <h2>Built for speed and reliability</h2>
+            <div class="feature-grid">
+                <article>
+                    <h3>Transparent Prices</h3>
+                    <p>Every listing has clear pricing so you always know the cost up front.</p>
+                </article>
+                <article>
+                    <h3>Quick Fulfilment</h3>
+                    <p>Our team focuses on fast handling so your tribe keeps moving.</p>
+                </article>
+                <article>
+                    <h3>Active Community</h3>
+                    <p>Get support, updates, and future offers directly in the Discord server.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="join" class="section cta">
+            <div class="container cta-content">
+                <h2>Join ClubArk on Discord</h2>
+                <p>Start your order and chat with the community here:</p>
+                <a class="discord-link" href="https://discord.gg/6BtZxsCJdY" target="_blank" rel="noopener noreferrer">discord.gg/6BtZxsCJdY</a>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>Contact us for more information.</p>
+        <div class="container footer-content">
+            <p>© 2026 ClubArk Market. ARK trading listings managed through Discord.</p>
+        </div>
     </footer>
-
-    <script>
-        // JavaScript to fetch and display the server player count
-        // This will depend on how you're tracking player count. 
-        // Example: AJAX request to your server or a third-party service API
-    </script>
 </body>
 </html>
